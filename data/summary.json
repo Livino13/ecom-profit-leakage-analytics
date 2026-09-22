@@ -1,0 +1,439 @@
+{
+ "rows": 1000123,
+ "date_min": "2024-02-03 04:31:57.621000",
+ "date_max": "2026-02-02 16:03:01.728000",
+ "totals": {
+  "revenue": 403285857.0,
+  "gross_profit": 160946812.88,
+  "net_profit": 140781583.13,
+  "orders": 991930,
+  "aov": 406.57,
+  "shipping": 12505985.29,
+  "fees": 7659244.46,
+  "leakage_total": 97707231.21,
+  "leakage_pct": 24.23
+ },
+ "leakage": {
+  "discounts": 37481503.34,
+  "returns": 40060498.12,
+  "shipping": 12505985.29,
+  "shipping_success": 11880857.34,
+  "failed": 625127.95,
+  "fees": 7659244.46,
+  "total": 97707231.21,
+  "discounts_pct": 9.29,
+  "returns_pct": 9.93,
+  "shipping_pct": 3.1,
+  "failed_pct": 0.16,
+  "fees_pct": 1.9,
+  "total_pct": 24.23,
+  "revenue": 403285857.0
+ },
+ "country": [
+  {
+   "country": "Netherlands",
+   "revenue": 40545046.49,
+   "profit": 16195566.73,
+   "orders": 100456,
+   "margin": 39.94
+  },
+  {
+   "country": "Italy",
+   "revenue": 40476034.0,
+   "profit": 16153075.45,
+   "orders": 99675,
+   "margin": 39.91
+  },
+  {
+   "country": "Belgium",
+   "revenue": 40416679.92,
+   "profit": 16142459.27,
+   "orders": 100268,
+   "margin": 39.94
+  },
+  {
+   "country": "Spain",
+   "revenue": 40377289.51,
+   "profit": 16110442.29,
+   "orders": 99955,
+   "margin": 39.9
+  },
+  {
+   "country": "United Kingdom",
+   "revenue": 40340497.42,
+   "profit": 16097071.63,
+   "orders": 99980,
+   "margin": 39.9
+  },
+  {
+   "country": "United States",
+   "revenue": 40236698.6,
+   "profit": 16085168.69,
+   "orders": 99668,
+   "margin": 39.98
+  },
+  {
+   "country": "France",
+   "revenue": 40230415.6,
+   "profit": 16066023.33,
+   "orders": 100069,
+   "margin": 39.94
+  },
+  {
+   "country": "Australia",
+   "revenue": 40331338.92,
+   "profit": 16065476.83,
+   "orders": 99698,
+   "margin": 39.83
+  },
+  {
+   "country": "Canada",
+   "revenue": 40202793.18,
+   "profit": 16041071.68,
+   "orders": 99944,
+   "margin": 39.9
+  },
+  {
+   "country": "Germany",
+   "revenue": 40129063.36,
+   "profit": 15990456.98,
+   "orders": 99586,
+   "margin": 39.85
+  }
+ ],
+ "category": [
+  {
+   "category": "Electronics",
+   "revenue": 139865986.94,
+   "profit": 55844736.53,
+   "orders": 199714,
+   "avg_discount": 8.51,
+   "margin": 39.93
+  },
+  {
+   "category": "Home",
+   "revenue": 87828677.76,
+   "profit": 35003956.69,
+   "orders": 200226,
+   "avg_discount": 8.51,
+   "margin": 39.85
+  },
+  {
+   "category": "Sports",
+   "revenue": 72917470.85,
+   "profit": 29120958.29,
+   "orders": 200064,
+   "avg_discount": 8.49,
+   "margin": 39.94
+  },
+  {
+   "category": "Health",
+   "revenue": 57467925.55,
+   "profit": 22943819.41,
+   "orders": 199241,
+   "avg_discount": 8.49,
+   "margin": 39.92
+  },
+  {
+   "category": "Clothing",
+   "revenue": 45205795.9,
+   "profit": 18033341.96,
+   "orders": 199240,
+   "avg_discount": 8.51,
+   "margin": 39.89
+  }
+ ],
+ "shipping": [
+  {
+   "shipping_country": "Netherlands",
+   "shipping_cost": 1258218.94,
+   "orders": 100456,
+   "avg_days": 7.49,
+   "failed_orders": 5009,
+   "failed_pct": 4.99
+  },
+  {
+   "shipping_country": "France",
+   "shipping_cost": 1254665.19,
+   "orders": 100069,
+   "avg_days": 7.5,
+   "failed_orders": 4924,
+   "failed_pct": 4.92
+  },
+  {
+   "shipping_country": "Canada",
+   "shipping_cost": 1253584.37,
+   "orders": 99944,
+   "avg_days": 7.52,
+   "failed_orders": 5032,
+   "failed_pct": 5.03
+  },
+  {
+   "shipping_country": "Belgium",
+   "shipping_cost": 1253290.72,
+   "orders": 100268,
+   "avg_days": 7.49,
+   "failed_orders": 5039,
+   "failed_pct": 5.03
+  },
+  {
+   "shipping_country": "Australia",
+   "shipping_cost": 1249916.18,
+   "orders": 99698,
+   "avg_days": 7.49,
+   "failed_orders": 5066,
+   "failed_pct": 5.08
+  },
+  {
+   "shipping_country": "Italy",
+   "shipping_cost": 1248383.88,
+   "orders": 99675,
+   "avg_days": 7.53,
+   "failed_orders": 4953,
+   "failed_pct": 4.97
+  },
+  {
+   "shipping_country": "Spain",
+   "shipping_cost": 1247229.6,
+   "orders": 99955,
+   "avg_days": 7.48,
+   "failed_orders": 5075,
+   "failed_pct": 5.08
+  },
+  {
+   "shipping_country": "United States",
+   "shipping_cost": 1247204.6,
+   "orders": 99668,
+   "avg_days": 7.52,
+   "failed_orders": 4900,
+   "failed_pct": 4.92
+  },
+  {
+   "shipping_country": "United Kingdom",
+   "shipping_cost": 1246971.76,
+   "orders": 99980,
+   "avg_days": 7.52,
+   "failed_orders": 5026,
+   "failed_pct": 5.03
+  },
+  {
+   "shipping_country": "Germany",
+   "shipping_cost": 1246520.05,
+   "orders": 99586,
+   "avg_days": 7.5,
+   "failed_orders": 4970,
+   "failed_pct": 4.99
+  }
+ ],
+ "segments": [
+  {
+   "segment": "High",
+   "n": 330647,
+   "revenue": 262963888.37,
+   "profit": 111548314.24
+  },
+  {
+   "segment": "Low",
+   "n": 330685,
+   "revenue": 37464847.2,
+   "profit": 12060003.65
+  },
+  {
+   "segment": "Medium",
+   "n": 330613,
+   "revenue": 102857121.43,
+   "profit": 37338494.99
+  }
+ ],
+ "top_products": [
+  {
+   "product_name": "USB Hub 7-Port",
+   "category": "Electronics",
+   "revenue": 11892381.23,
+   "profit": 4743313.47,
+   "orders": 16999,
+   "avg_discount": 8.44,
+   "returns": 1656,
+   "margin": 39.89,
+   "return_rate": 9.74
+  },
+  {
+   "product_name": "USB-C Fast Charger 65W",
+   "category": "Electronics",
+   "revenue": 11834539.2,
+   "profit": 4727591.29,
+   "orders": 16701,
+   "avg_discount": 8.55,
+   "returns": 1628,
+   "margin": 39.95,
+   "return_rate": 9.75
+  },
+  {
+   "product_name": "Wireless Mouse 2.4GHz",
+   "category": "Electronics",
+   "revenue": 11767809.72,
+   "profit": 4718340.55,
+   "orders": 16811,
+   "avg_discount": 8.49,
+   "returns": 1652,
+   "margin": 40.1,
+   "return_rate": 9.83
+  },
+  {
+   "product_name": "Gaming Mechanical Keyboard RGB",
+   "category": "Electronics",
+   "revenue": 11769358.47,
+   "profit": 4700348.05,
+   "orders": 16794,
+   "avg_discount": 8.56,
+   "returns": 1682,
+   "margin": 39.94,
+   "return_rate": 10.02
+  },
+  {
+   "product_name": "Laptop Backpack Waterproof",
+   "category": "Electronics",
+   "revenue": 11720156.74,
+   "profit": 4685830.3,
+   "orders": 16719,
+   "avg_discount": 8.46,
+   "returns": 1659,
+   "margin": 39.98,
+   "return_rate": 9.92
+  }
+ ],
+ "worst_products": [
+  {
+   "product_name": "Baseball Cap",
+   "category": "Clothing",
+   "revenue": 5035513.0,
+   "profit": 2006928.62,
+   "orders": 22171,
+   "avg_discount": 8.56,
+   "returns": 2173,
+   "margin": 39.86,
+   "return_rate": 9.8
+  },
+  {
+   "product_name": "Denim Jeans Slim Fit",
+   "category": "Clothing",
+   "revenue": 5009172.62,
+   "profit": 2002134.64,
+   "orders": 22139,
+   "avg_discount": 8.54,
+   "returns": 2259,
+   "margin": 39.97,
+   "return_rate": 10.2
+  },
+  {
+   "product_name": "Running Shoes Air Zoom",
+   "category": "Clothing",
+   "revenue": 5032736.63,
+   "profit": 2000361.2,
+   "orders": 22244,
+   "avg_discount": 8.5,
+   "returns": 2203,
+   "margin": 39.75,
+   "return_rate": 9.9
+  },
+  {
+   "product_name": "Casual Sneakers",
+   "category": "Clothing",
+   "revenue": 4968713.53,
+   "profit": 1986116.97,
+   "orders": 21919,
+   "avg_discount": 8.46,
+   "returns": 2195,
+   "margin": 39.97,
+   "return_rate": 10.01
+  },
+  {
+   "product_name": "Winter Jacket Waterproof",
+   "category": "Clothing",
+   "revenue": 4968581.64,
+   "profit": 1977952.07,
+   "orders": 21982,
+   "avg_discount": 8.43,
+   "returns": 2244,
+   "margin": 39.81,
+   "return_rate": 10.21
+  }
+ ],
+ "top_customers": [
+  {
+   "customer_id": "CUS-WXS3A",
+   "customer_name": "Amanda Harrison",
+   "country": "United Kingdom",
+   "city": "London",
+   "raw_segment": "Regular",
+   "revenue": 4043.93,
+   "profit": 2113.68,
+   "orders": 2,
+   "returns": 0,
+   "aov": 2021.96,
+   "return_rate": 0.0,
+   "clv": 2113.68,
+   "segment": "High"
+  },
+  {
+   "customer_id": "CUS-DK6O9",
+   "customer_name": "Christopher Edwards",
+   "country": "United States",
+   "city": "Houston",
+   "raw_segment": "Regular",
+   "revenue": 3888.2,
+   "profit": 1800.5,
+   "orders": 2,
+   "returns": 0,
+   "aov": 1944.1,
+   "return_rate": 0.0,
+   "clv": 1800.5,
+   "segment": "High"
+  },
+  {
+   "customer_id": "CUS-5XVL1",
+   "customer_name": "Robert Mercer",
+   "country": "United Kingdom",
+   "city": "Leeds",
+   "raw_segment": "Regular",
+   "revenue": 3506.8,
+   "profit": 1744.47,
+   "orders": 2,
+   "returns": 0,
+   "aov": 1753.4,
+   "return_rate": 0.0,
+   "clv": 1744.47,
+   "segment": "High"
+  },
+  {
+   "customer_id": "CUS-CSPL3",
+   "customer_name": "Tracey Wong",
+   "country": "Canada",
+   "city": "Montreal",
+   "raw_segment": "VIP",
+   "revenue": 4267.91,
+   "profit": 1739.52,
+   "orders": 2,
+   "returns": 0,
+   "aov": 2133.96,
+   "return_rate": 0.0,
+   "clv": 1739.52,
+   "segment": "High"
+  },
+  {
+   "customer_id": "CUS-A2OPJ",
+   "customer_name": "Lisa Whitney",
+   "country": "France",
+   "city": "Nice",
+   "raw_segment": "Regular",
+   "revenue": 3422.48,
+   "profit": 1732.12,
+   "orders": 2,
+   "returns": 0,
+   "aov": 1711.24,
+   "return_rate": 0.0,
+   "clv": 1732.12,
+   "segment": "High"
+  }
+ ]
+}
