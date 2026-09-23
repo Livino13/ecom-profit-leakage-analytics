@@ -6,6 +6,15 @@ Dataset (1M+ records, 2024–2026). Values are in **USD**. No hardcoded metrics.
 
 ## Quick start
 
+Single-file submission bundle (what this repo tracks):
+
+```bash
+pip install -r requirements.txt
+python dashboard.py   # dev server at http://127.0.0.1:8050
+```
+
+Multi-file dev layout (local only, not tracked here):
+
 ```bash
 pip install -r requirements.txt
 python build_cache.py   # one-time: converts the 376 MB XLSX to data/processed.parquet
