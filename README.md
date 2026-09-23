@@ -8,6 +8,13 @@
 > instance wakes up. The live demo serves a 20k-row sample
 > (`data/demo.parquet`); the full 1M+ rows run locally (see Dataset below).
 
+## Screenshots
+
+![Executive Overview](assets/screenshots/01-executive-overview.png)
+![Profit Leakage](assets/screenshots/02-profit-leakage.png)
+![Customer Value](assets/screenshots/03-customer-value.png)
+![Product Analysis](assets/screenshots/04-product-analysis.png)
+
 A Python analytics dashboard built with **Dash**, **Plotly**, **Pandas**, and **NumPy**.
 All KPIs, charts, maps, and tables are calculated from the Global E-Commerce
 Dataset (1M+ records, 2024–2026). Values are in **USD**. No hardcoded metrics.
