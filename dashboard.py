@@ -1069,7 +1069,6 @@ def sortable_table(
         columns=columns,
         data=data,
         sort_action="native",
-        filter_action="native",
         page_action="native",
         page_size=page_size,
         style_header=TABLE_STYLE_HEADER,
@@ -1078,7 +1077,6 @@ def sortable_table(
         style_data_conditional=[
             {"if": {"row_index": "odd"}, "backgroundColor": "#FAFBFE"},
         ],
-        filter_options={"case": "insensitive"},
     )
 
 # ======================================================================
@@ -1210,7 +1208,7 @@ def executive_overview_layout(agg: dict):
             ),
             card(
                 "Product Profitability",
-                "Top 12 products by profit · sortable and filterable · USD",
+                "Top 12 products by profit · sortable · USD",
                 [sortable_table("exec-products", prod_cols, prod_data,
                                 page_size=12)],
             ),
@@ -1506,7 +1504,7 @@ def customer_value_layout(agg: dict):
             ),
             card(
                 "Customer Detail — Value, Behaviour and Profitability",
-                "Top 50 by CLV · sortable and filterable · USD",
+                "Top 50 by CLV · sortable · USD",
                 [sortable_table("cust-detail", cols, data, page_size=12)],
             ),
         ],
