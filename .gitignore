@@ -10,6 +10,8 @@ __pycache__/
 # Large data files (download via README link, rebuild cache with build_cache.py)
 *.xlsx
 *.parquet
+# ...except the small hosted-demo sample
+!data/demo.parquet
 
 # Local / logs
 .env

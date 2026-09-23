@@ -1,5 +1,13 @@
 # ProfitLens — Global E-Commerce Profit Leakage & Customer Value Analytics
 
+## Live Demo
+
+**https://profitlens-dashboard.onrender.com**
+
+> Hosted on Render's free tier — the first load can take a minute while the
+> instance wakes up. The live demo serves a 20k-row sample
+> (`data/demo.parquet`); the full 1M+ rows run locally (see Dataset below).
+
 A Python analytics dashboard built with **Dash**, **Plotly**, **Pandas**, and **NumPy**.
 All KPIs, charts, maps, and tables are calculated from the Global E-Commerce
 Dataset (1M+ records, 2024–2026). Values are in **USD**. No hardcoded metrics.

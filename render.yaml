@@ -1,0 +1,15 @@
+# Render Blueprint — deploys dashboard.py from GitHub in one click.
+# Free tier: single worker (the full dataset stays local; the hosted demo
+# serves the committed 20k-row data/demo.parquet sample).
+services:
+  - type: web
+    name: profitlens-dashboard
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn dashboard:server --workers 1 --threads 4 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.3
+      - key: DASH_DEBUG
+        value: "false"

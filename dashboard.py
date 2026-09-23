@@ -100,6 +100,10 @@ XLSX_CANDIDATES = [
     BASE_DIR / "data" / "ecommerce_dataset_+1m.xlsx",
 ]
 CACHE_PATH = BASE_DIR / "data" / "processed.parquet"
+# Small committed sample so hosted demos (Render free tier) work without the
+# 359 MB XLSX, which is git-ignored. Local runs with the full dataset are
+# unaffected — this is only a last-resort fallback.
+DEMO_PATH = BASE_DIR / "data" / "demo.parquet"
 
 NEEDED_COLS = [
     "order_id", "order_date", "order_status", "order_priority",
@@ -159,6 +163,9 @@ def load_dataset(force_rebuild: bool = False, sample_n: int | None = None) -> pd
         return df
     xlsx = _find_xlsx()
     if xlsx is None:
+        if DEMO_PATH.exists():
+            print(f"Full dataset not found; using demo sample: {DEMO_PATH}", flush=True)
+            return pd.read_parquet(DEMO_PATH)
         raise FileNotFoundError(
             "Dataset XLSX not found. Place 'ecommerce_dataset_+1m.xlsx' at repo root or data/."
         )
@@ -1701,4 +1708,11 @@ def render_page(pathname: str | None):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=8050)
+    import os
+
+    # Render/Heroku-style hosts inject PORT; default to local dev values.
+    app.run(
+        debug=os.environ.get("DASH_DEBUG", "true").lower() == "true",
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8050)),
+    )
